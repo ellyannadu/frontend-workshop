@@ -6,12 +6,15 @@ const Page = () => {
       <div className="header"></div>
       <h2>Pokedex</h2>
 
-      <div className="main">
-        <h1>Catch &apos;Em All!</h1>
-        <p>Explore with our interactive Pokedex!</p>
+      <div className="container">
+        <img src={"pokedex.png"} alt="poke" />
+        <div className="main">
+          <h1>Catch &apos;Em All!</h1>
+          <p>Explore with our interactive Pokedex!</p>
+          <button id="view-pokedex">View Pokedex</button>
+        </div>
       </div>
 
-      <button id="view-pokedex">View Pokedex</button>
     </div>
   );
 };
